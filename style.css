@@ -1,0 +1,27 @@
+.container {
+  width: 700px;
+  margin: auto auto;
+}
+
+.table-header {
+  border: 1px solid #ddd;
+  background-color: #f1f1f1;
+}
+.table-header .btn {
+  display: inline-block;
+  border: none;
+  padding: 14px 16px;
+}
+.table-header .btn.active {
+  background-color: #ccc;
+}
+.table-header .btn:hover {
+  background-color: #ddd;
+}
+.table-border {
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+}
+.display-none {
+  display: none;
+}
